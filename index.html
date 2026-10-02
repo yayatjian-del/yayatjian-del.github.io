@@ -4,16 +4,238 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Praktikum SIDJA | Arzian Maulana</title>
+  <title></title>
 </head>
 
 <body>
-  <h3>MENU PRAKTIKUM</h3>
-  <br>PRAKTIKUM 1 klik <a href="praktikum1.html">disini</a>
-  <br>PRAKTIKUM 2 klik <a href="praktikum2.html">disini</a>
-  <br>PRAKTIKUM 3 klik <a href="praktikum3.html">disini</a>
-  <br>PRAKTIKUM 4 klik <a href="praktikum4.html">disini</a>
-  <br>PRAKTIKUM 5 klik <a href="praktikum5.html">disini</a>
+  
+</body>
+
+</html><!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Profil Kedai Kopi</title>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #222;
+            
+            background:
+                linear-gradient(135deg,
+                    rgba(255, 255, 255, .75),
+                    rgba(220, 210, 200, .75)),
+                repeating-linear-gradient(45deg,
+                    #eee 0px,
+                    #eee 80px,
+                    #ddd 80px,
+                    #ddd 160px);
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px 35px;
+        }
+        
+        /* LOGO KOPI */
+        .logo {
+            text-align: center;
+            margin: 10px 0 20px;
+        }
+        
+        .logo .cup {
+            font-size: 120px;
+        }
+        
+        /* NAVIGASI */
+        nav {
+            text-align: center;
+            margin-bottom: 55px;
+            font-size: 20px;
+        }
+        
+        nav a {
+            color: #5b2c16;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        /* JUDUL */
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            line-height: 1.4;
+            margin-bottom: 50px;
+            color: #4b2818;
+        }
+        
+        /* QUOTE */
+        .quote {
+            text-align: center;
+            font-size: 23px;
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #999;
+            margin: 25px 0 35px;
+        }
+        
+        /* DESKRIPSI */
+        .deskripsi {
+            font-size: 22px;
+            line-height: 1.65;
+            margin-bottom: 35px;
+        }
+        
+        .highlight {
+            background: #e6b85c;
+            padding: 2px 4px;
+        }
+        
+        /* MENU */
+        h2 {
+            font-size: 35px;
+            color: #4b2818;
+        }
+        
+        ul {
+            font-size: 22px;
+            line-height: 1.7;
+        }
+        
+        /* FOOTER */
+        footer {
+            text-align: center;
+            color: #777;
+            margin-top: 70px;
+            padding-bottom: 20px;
+        }
+        
+        /* HP */
+        @media (max-width: 600px) {
+            
+            .container {
+                padding: 15px 35px;
+            }
+            
+            .logo .cup {
+                font-size: 90px;
+            }
+            
+            nav {
+                font-size: 18px;
+            }
+            
+            h1 {
+                font-size: 36px;
+            }
+            
+            .quote {
+                font-size: 20px;
+            }
+            
+            .deskripsi {
+                font-size: 20px;
+            }
+            
+            h2 {
+                font-size: 31px;
+            }
+            
+            ul {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        
+        <!-- LOGO KEDAI KOPI -->
+        <div class="logo">
+            <div class="cup">☕</div>
+        </div>
+        
+        <!-- MENU -->
+        <nav>
+            <a href="index.html">Beranda</a>
+            |
+            <a href="jadwal.html">Jadwal Operasional</a>
+        </nav>
+        
+        <!-- JUDUL -->
+        <h1>
+            Selamat Datang di<br>
+            Kedai Kopi
+        </h1>
+        
+        <!-- SLOGAN -->
+        <div class="quote">
+            "Tempat terbaik untuk menikmati kopi,
+            bersantai, dan berbagi cerita."
+        </div>
+        
+        <hr>
+        
+        <!-- DESKRIPSI -->
+        <div class="deskripsi">
+            Kedai Kopi didirikan sejak tahun 2026
+            sebagai tempat yang nyaman untuk
+            menikmati berbagai macam kopi.
+            Kami menyajikan kopi berkualitas dengan
+            cita rasa yang nikmat serta
+            <span class="highlight">
+                harga yang sangat terjangkau
+            </span>
+            untuk semua pelanggan.
+        </div>
+        
+        <!-- MENU FAVORIT -->
+        <h2>Menu Favorit Kami</h2>
+        
+        <ul>
+            <li>
+                Minuman
+                <ul>
+                    <li>Kopi Susu Aren</li>
+                    <li>Americano</li>
+                    <li>Cappuccino</li>
+                    <li>Green Tea Latte</li>
+                </ul>
+            </li>
+            
+            <li>
+                Makanan
+                <ul>
+                    <li>Roti Bakar Cokelat</li>
+                    <li>Kentang Goreng</li>
+                    <li>Pisang Goreng</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <footer>
+            Created by Arzian Maulana @2026
+        </footer>
+        
+    </div>
+    
 </body>
 
 </html>
